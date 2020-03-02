@@ -27,7 +27,9 @@ python3 embed_string.py sample.ppm sample.txt
 
 Without String             |  With String Encoded
 :-------------------------:|:-------------------------:
-![Input Image](sample.ppm) |  ![Output Image](output.ppm)
+![Input Image](docs/sample.jpg) |  ![Output Image](docs/output.jpg)
+
+> If you zoom in really close on the right image you can see the pixels that are altered with text. You will see some pixels that are clearly not the right color. However this is very hard to notice if not looking for it. To make it even more discrete you can use a larger image.
 
 
 
