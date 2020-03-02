@@ -31,6 +31,7 @@ def read_file(file):
         fin = open(file)
     except FileNotFoundError:
         print('Unable to open ', file)
+        exit(1)
     string = ''
     for line in fin:
         string += line
@@ -49,6 +50,7 @@ def parse_file(file):
         fin = open(file)
     except FileNotFoundError:
         print('Unable to open', file)
+        exit(1)
     fin.readline()
     dimensions = fin.readline().split()
     fin.readline()
