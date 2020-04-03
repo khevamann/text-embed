@@ -18,7 +18,7 @@ python3 embed_string.py <image> <string or text_file>
 python3 embed_string.py <image>
 ```
 
-###Here is a sample run
+### Here is a sample run
 Running the below script will encode the text file sample.txt into the image sample.ppm. The images below show the before and after. As you can see it is hard to notice the encoded string. 
 
 ```shell script
